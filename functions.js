@@ -6,9 +6,14 @@
  * e.g.
  * greet("Hamza") logs "Hello Hamza"
  */
+console.log("1 - test if greet function works");
+
 function greet(name) {
   // Your code here
+  console.log(`2- hello ${name}`);
 }
+
+greet("kabochy");
 
 /**
  * isOdd(n):
@@ -19,9 +24,22 @@ function greet(name) {
  * isOdd(7) -> true
  * isOdd(10) -> false
  */
+console.log("3 - test odd or even")
 function isOdd(n) {
   // Your code here
+  console.log(`4 - you have entered the number ${n} to ask if it's odd..`);
+
+  if(n % 2 === 1){
+    console.log(`the number ${n} is Odd`)
+  } else{
+    console.log(`the number ${n} is Even`)
+  }
+  console.log(n % 2 ===1);
+
 }
+
+
+isOdd(17);
 
 /**
  * oddsSmallerThan(n):
